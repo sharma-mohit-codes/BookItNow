@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  
+}
+/* Navigatiopn */
+
+.navbar{
+
+    display: flex;
+    align-items: center;
+
+}
+.navbar ::before{
+    content: "";
+    background-color: rgba(249 ,216, 198);
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4 ;
+    cursor: auto;
+}
+
+.navbar #logo{
+
+    margin:15px  20px;
+}
+.navbar #logo img{
+    height: 70px;
+
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar ul li{
+    list-style: none;
+   
+}
+
+.navbar ul li a{
+    font-size: 1.5rem;
+    color: black;
+    display: block;
+    padding: 3px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    background-color:black;
+    color: rgb(249 216 198);
+}
+
+
+/* Home Section */
+
+.home{
+    
+    padding: 3px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 506px;
+}
+.home::before {
+    content: "";
+    position: absolute;
+    background: url(bg1.jpg) top right;
+    width: 100%;
+    top: 20px;
+    height: 75%;
+    z-index: -2;
+    opacity: 0.95;
+}
+.home h1{
+    color: rgb(253, 252, 252);
+    font-family: "Sour Gummy", sans-serif;
+}
+.home p{
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    font-family: "Sour Gummy", sans-serif;
+
+}
+
+.btn{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px 18px;
+    margin: 28px ;
+    font-size: 1.6rem;
+    border-radius: 25px;
+    border: none;
+    background-color:  rgb(249, 241, 225);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:  rgb(230, 205, 143);
+    font-size: 1.8rem;
+}
+
+/* Services  */
+.services-page{
+    height: auto;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 33px ;
+    flex-wrap: wrap;
+    
+}
+
+.services .box{
+    border: 2px solid rgb(220, 173, 42);
+    margin: 13px 26px;
+    padding: 33px;
+    border-radius: 40px;
+    background-color:rgb(249, 241, 225);
+    width: 580px;
+    transition: all 0.2s;
+}
+
+.services .box:hover{
+    transform: scale(1.06);
+
+}
+.services #box1:hover{
+    background-color:rgb(121, 184, 252);
+}
+.services #box2:hover{
+    background-color:rgb(243, 250, 107);
+}
+.services #box3:hover{
+    background-color:rgb(124, 239, 168);
+}
+.services #box4:hover{
+    background-color:rgb(248, 141, 79);
+}
+.services .box img{
+    display: block;
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    padding: 20px 2px;
+}
+.services p{
+    font-family: "Sour Gummy", sans-serif;
+}
+
+/* Patners */
+
+.patners{
+    height: 420px;
+    background-color: aliceblue;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.logo img {
+    display: block;
+    height: 80px;
+        padding: 30px;
+        margin: 2px 50px;
+}
+
+.logo img:hover{
+    height: 90px ;
+}
+footer{
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;    
+}
+footer p{
+    padding: 40px 12px;
+    color: white;
+    font-size: 1.3rem;
+   
+}
+.contact{
+    margin: 15px;
+    height: 45px;
+}
+footer img{
+    height: 50px;
+    padding: opx 5px;
+}
+/* Utility Class */
+.primary-heading{
+    font-size: 4.5rem;
+    padding: 12px;
+    font-family: "Sour Gummy", sans-serif;
+}
+.sec-heading{
+    font-size: 2.5rem;
+    padding: 12px;
+    font-family: "Sour Gummy", sans-serif;
+}
+.center{
+    text-align: center;
+}
+

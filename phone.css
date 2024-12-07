@@ -1,0 +1,106 @@
+
+
+.navbar ul li a {
+    font-size: 0.88rem;
+    color: black;
+    display: block;
+    padding: 4px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.navbar {
+    flex-direction: column;
+}
+
+.navbar #logo {
+    margin: 6px 4px;
+}
+.navbar #logo img {
+    height: 33px;
+}
+
+.home {
+    padding: 4px 10px;
+    height: 281px;
+}
+.home p {
+    font-size: 0.7rem;
+}
+.home::before {
+    height: 40%;
+}
+
+.services .box img {
+    height: 70px;
+    width: 70px;
+    padding: 6px 6px;
+}
+
+.services {
+    margin: 6px 0px;
+    margin-bottom: 30px;
+}
+.services p {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 0.9rem;
+}
+.services-page h1{
+    font-size: 2.5rem;
+}
+
+.logo-container {
+    flex-wrap: wrap;
+    margin: 8px 4px;
+}
+
+.logo img {
+    height: 28px;
+    padding: 4px;
+    margin: 2px 12px;
+}
+.logo img:hover {
+ height: 28px;  
+}
+
+.patners {
+    height: 142px;
+}
+
+footer {
+    background-color: black;
+    height: 39px;
+}
+footer p {
+    padding: 10px;
+    color: white;
+    font-size: 0.45rem;
+}
+footer img {
+    height: 20px;
+    padding: 5px;
+}
+
+.contact {
+    margin: 4px;
+    height: 30px;
+}
+/* Utility Class */
+.primary-heading {
+    font-size: 1.9rem;
+    padding: 7px;
+}
+.sec-heading {
+    font-size: 1.7rem;
+    padding: 10px;
+}
+
+.btn {
+    padding: 3px 18px;
+    margin: 15px;
+    font-size: 0.85rem;
+}
+
+.btn:hover {
+    font-size: 0.95rem;
+}
